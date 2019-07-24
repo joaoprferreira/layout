@@ -92,3 +92,58 @@ body aside main .descrition h2{
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     font-weight: lighter;
 }
+body aside main .descrition .estrelas{
+    display: flex;
+    margin-top: 30px;
+}
+body aside main .descrition .estrelas img{
+    height: 20px;
+}
+body aside main .descrition .avaliaçao{
+    margin: 25px 0px 0px 15px; 
+    font-size: 12px;
+    color: rgb(197, 197, 197);
+}
+body aside main .descrition .preços {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 30px;
+    
+}
+body aside main .descrition .preços p{
+    color: white;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: lighter;
+}
+body aside main .descrition .descrition-fone{
+    margin-top: 80px; 
+}
+body aside main .descrition .descrition-fone p{
+    color: white;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: lighter;
+    font-size: 20px;
+}
+body aside main .descrition .botoes-line{
+    display: flex;
+    margin-top: 80px;
+}
+body aside main .descrition .botoes-line #botao1{
+    background-color: brown;
+    margin: 0px 50px 0px 0px;
+    height: 45px;
+    width: 200px;
+    border: white 1px solid;
+    color: white;
+    font-size: 18px;
+}
+body aside main .descrition .botoes-line #botao2{
+    background-color: rgb(15, 9, 51);
+    margin: 0px 50px 0px 0px;
+    height: 45px;
+    width: 200px;
+    border: white 1px solid;
+    color: white;
+    font-size: 18px;
+    border: none;
+}
