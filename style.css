@@ -2,3 +2,88 @@
     margin: 0;
     padding: 0;
 }
+body{
+    height: 100vh;
+    background-image: linear-gradient(to bottom, rgb(0, 0, 0), rgb(187, 10, 99));
+    background-size: 100%;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+    margin: 100px;
+}
+body aside{
+    height: 900px;
+    width: 150vh;
+    background-color:brown;
+}
+body aside header{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+body aside header .lg-principal h1{
+    color: white;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 40px;
+    font-weight: lighter;
+    margin: 40px;
+}
+body aside header .end{
+    display: flex;
+    justify-content: space-between;
+}
+body aside header .flex-line{
+    display: flex;
+    justify-content: space-around;
+}
+body aside header .flex-line input{
+    background-color: brown;
+    border: none;
+    border-bottom:1px rgb(255, 255, 255) solid; 
+    outline: none;
+    margin: 20px;
+    width: 200px;
+}
+body aside header .flex-line input::-webkit-input-placeholder{
+    color:rgb(255, 255, 255);
+    padding: 5px; 
+    
+}
+body aside header .opç-center{
+    display: flex;
+}
+body aside header .opç-center h2{
+    color: white;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: lighter;
+    padding: 30px;
+}
+body aside main{
+    height: 100vh;
+    display: flex;
+    /* background-color: aqua; */
+}
+body aside main .fone-png{
+    height: 500px;
+    width: 550px;
+    border-radius: 0px 150px 150px 0px;
+    background-color: white;
+    margin-top:50px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+body aside main .fone-png img{
+    height: 350px;
+    margin: 20px;
+}
+body aside main .coraçoes{
+    margin: 90px 0px 0px 50px;
+}
+body aside main .coraçoes img{
+    display: block;
+    height: 30px;
+}
+body aside main .descrition{
+    margin-top:90px  ;
+}
