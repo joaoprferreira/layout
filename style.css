@@ -85,5 +85,10 @@ body aside main .coraçoes img{
     height: 30px;
 }
 body aside main .descrition{
-    margin-top:90px  ;
+    margin:90px 0px 0px 40px;
+}
+body aside main .descrition h2{
+    color: white;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: lighter;
 }
