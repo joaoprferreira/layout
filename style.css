@@ -3,7 +3,7 @@
     padding: 0;
 }
 body{
-    height: 100vh;
+    height: 100%;
     background-image: linear-gradient(to bottom, rgb(0, 0, 0), rgb(187, 10, 99));
     background-size: 100%;
     background-repeat: no-repeat;
@@ -12,7 +12,7 @@ body{
     margin: 100px;
 }
 body aside{
-    height: 900px;
+    height: 1000px;
     width: 150vh;
     background-color:brown;
 }
@@ -146,4 +146,13 @@ body aside main .descrition .botoes-line #botao2{
     color: white;
     font-size: 18px;
     border: none;
+}
+
+@media (max-width: 600px){
+body{
+    height: 100%;
+    background-image: linear-gradient(to bottom, rgb(0, 0, 0), rgb(187, 10, 99));
+    background-size: 100%;
+    
+    }
 }
